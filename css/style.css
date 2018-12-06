@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+/* Mini reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Utility */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Components */
+.button {
+  padding: .75em 2em;
+  font-weight: bold;
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  border-radius: 3px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.15);
+}
+
+.button-primary {
+  background-color: teal;
+  color: white;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: lighter;
+  /* margin-bottom: 12px; */
+  /* add color */
+}
+
+.title::before {
+  content: '';
+  display: block;
+  height: 4.5rem;
+  width: 5px;
+  background-color: teal;
+  position: absolute;
+  transform: translate(-.5em, .5rem)
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: .75rem;
+  color: #f7f7f7;
+  /* add color */
+}
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1525987654770-69ad51b49be4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80");
+  color: white;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to bottom right,orange,teal);
+  opacity: .6; 
+  z-index: 0;
+}
+
+header > .container {
+  min-height: 100vh;
+}
+
+header > .container > * {
+  z-index: 10;
+}
+
+/* Navigacija */
+nav {
+  box-sizing: border-box;
+  padding: 30px 0;
+  position: fixed;
+  width: 100vw;
+  color: white;
+  z-index: 10;
+}
+nav ul {
+  width: 400px;
+}
+
+nav ul a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .75rem;
+  letter-spacing: 1px;
+  transition: color .2s ease;
+}
+
+nav ul a:hover {
+  color: teal;
+}
+
+#logo {
+  font-size: 2rem;
+}
+
+#logo span {
+  color: teal;
+}
