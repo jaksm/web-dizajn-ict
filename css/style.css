@@ -31,6 +31,9 @@ figure {
   margin: 0;
 }
 
+hr {
+  margin: 1rem 0;
+}
 /* Utility */
 .container {
   max-width: 1200px;
@@ -145,7 +148,7 @@ nav {
   background-color: rgba(255, 255, 255, 0.671);
 }
 nav ul {
-  width: 400px;
+  width: 250px;
 }
 
 nav ul a {
@@ -220,6 +223,23 @@ nav ul a:hover {
 #gallery > figure > figcaption {
   background-color: teal;
   padding: 0.5em 3em;
+  transition: transform 0.2s ease;
+}
+
+figure:hover figcaption {
+  transform: scale(1.25);
+}
+
+figure::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.1;
 }
 
 /* Kontakt */
@@ -254,4 +274,33 @@ footer {
   padding: 5rem 0;
   background: #222222;
   color: white;
+}
+
+/* O autoru */
+#o-autoru {
+  min-height: 100vh;
+}
+
+#o-autoru > .container {
+  padding-top: 7rem;
+}
+#o-autoru .subtitle {
+  color: teal;
+}
+.autor {
+  align-items: flex-start;
+  margin-top: 3rem;
+}
+.autor p:first-child {
+  margin-top: 0;
+}
+.autor img {
+  width: 30%;
+  margin-right: 2rem;
+}
+.social {
+  font-size: 2rem;
+  color: teal;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
