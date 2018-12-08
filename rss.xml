@@ -1,18 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
-	<channel>
-		<title>#Jaksm travel</title>
-		<link>https://jaksm.github.io/web-dizajn-ict/</link>
-		<description>Projekat iz predmeta Web Dizajn</description>
-		<item>
-			<title>LA, USA</title>
-			<link>https://jaksm.github.io/web-dizajn-ict/</link>
-			<description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vel neque quam! Nihil explicabo fugit voluptas sit architecto ab facere animi ex, dolorum magnam provident quas excepturi iure beatae mollitia.</description>
-		</item>
-		<item>
-			<title>Amsterdam, Holandija</title>
-			<link>https://jaksm.github.io/web-dizajn-ict/</link>
-			<description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci vel neque quam! Nihil explicabo fugit voluptas sit architecto ab facere animi ex, dolorum magnam provident quas excepturi iure beatae mollitia.</description>
-		</item>
-	</channel>
+  <channel>
+    <title>Zelite da otputujete?</title>
+    <link>https://jaksm.github.io/web-dizajn-ict/</link>
+    <description />
+    <item>
+      <guid>https://jaksm.github.io/web-dizajn-ict/</guid>
+      <title>Zelite da otputujete?</title>
+      <link>https://jaksm.github.io/web-dizajn-ict/</link>
+      <description />
+    </item>
+  </channel>
 </rss>
