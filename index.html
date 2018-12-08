@@ -17,7 +17,7 @@
           <li><a href="#gallery">Popularno</a></li>
           <li><a href="/pages/letovanja.html">Letovanja</a></li>
           <li><a href="/pages/zimovanja.html">Zimovanja</a></li>
-          <li><a href="/pages/izleti.html">Izleti</a></li>
+          <li><a href="#contact">Kontakt</a></li>
           <li><a href="/pages/o-autoru.html">O Autoru</a></li>
         </ul>
       </div>
@@ -51,5 +51,42 @@
         <figcaption>LA, USA</figcaption>
       </figure>
     </section>
+    <!-- Contact -->
+    <section id="contact">
+      <form>
+        <div class="container flex-col">
+          <div class="form-row">
+            <input type="text" placeholder="Ime i prezime" />
+            <select>
+              <option value="default">Odaberite destinaciju</option>
+              <option value="RO">Rodos, Grčka</option>
+              <option value="KR">Krakov, Poljska</option>
+              <option value="PA">Pariz, Francuska</option>
+              <option value="AM">Amsterdam, Holandija</option>
+              <option value="RE">Rejkjavik, Island</option>
+              <option value="LA">Los Andjeles, USA</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <input type="date" /> <input type="date" />
+          </div>
+
+          <div class="form-row">
+            <input type="number" placeholder="Broj osoba" />
+          </div>
+
+          <div class="form-row">
+            <button type="submit" class="button button-primary">
+              Rezerviši
+            </button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer class="flex-center flex-col">
+      <h4>Visoka ICT, Beograd 2018.</h4>
+      <span>Jakša Mališić</span>
+    </footer>
   </body>
 </html>

@@ -74,6 +74,7 @@ figure {
   letter-spacing: 1.5px;
   border-radius: 3px;
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
+  border: none;
 }
 
 .button-primary {
@@ -221,15 +222,36 @@ nav ul a:hover {
   padding: 0.5em 3em;
 }
 
-/* #gallery > figure::after {
-  content: "";
-  opacity: 0.5;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: black;
-  z-index: 50;
-} */
+/* Kontakt */
+#contact input,
+select {
+  width: 40%;
+  border: 1px solid teal;
+  background: white;
+  padding: 0.5em 2em;
+  font-family: "Fira Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+select {
+  width: 44.5%;
+}
+
+#contact .container {
+  display: flex;
+  padding: 7.5rem 2rem;
+}
+
+#contact .form-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+}
+
+/* Footer */
+footer {
+  padding: 5rem 0;
+  background: #222222;
+  color: white;
+}
